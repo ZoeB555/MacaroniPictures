@@ -1,4 +1,0 @@
-ChinkyKitties
-=============
-
-Macaroni Pictures
