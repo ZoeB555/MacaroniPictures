@@ -1,0 +1,12 @@
+print 'Welcome to Chinky Kitties Temperature Conversion Pro ... "Thermometers? Who needs them - we have Chinky Kitties!"'
+request=raw_input('Enter "c" to convert to Celsius or "f" to convert to Farenheit:')
+if request =='c':
+    tx = int(raw_input('Enter temperature:'))
+    cAns = 5.0/9.0*(tx-32)
+    print cAns , str('degrees Celsius')
+else:
+    if request == 'f':
+        ty = int(raw_input('Enter temperature:'))
+        fAns = ((9.0/5.0)*ty)+32
+        print fAns , str('degrees Fahrenheit')
+print "Remember - don't forget the sculptures, and have a nice day:)" 
